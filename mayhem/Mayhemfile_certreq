@@ -1,0 +1,6 @@
+project: savantenvs/x509-parser
+target: certreq
+
+cmds:
+  - cmd: /mayhem/certreq
+    libfuzzer: true

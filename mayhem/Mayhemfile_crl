@@ -1,0 +1,6 @@
+project: savantenvs/x509-parser
+target: crl
+
+cmds:
+  - cmd: /mayhem/crl
+    libfuzzer: true

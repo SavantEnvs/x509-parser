@@ -1,0 +1,6 @@
+project: savantenvs/x509-parser
+target: x509_parse
+
+cmds:
+  - cmd: /mayhem/x509_parse
+    libfuzzer: true
